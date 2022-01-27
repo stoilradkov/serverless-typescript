@@ -2,6 +2,11 @@ service: sls-base
 
 plugins:
     - serverless-webpack
+ 
+custom:
+    webpack:
+        webpackConfig: ./webpack.config.js
+        includeModules: true
 
 provider:
     name: aws
