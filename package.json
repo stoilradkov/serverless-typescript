@@ -1,0 +1,26 @@
+{
+  "name": "typescript-eslint-prettier-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.80",
+    "@types/serverless": "^1.78.32",
+    "@typescript-eslint/eslint-plugin": "^4.28.4",
+    "@typescript-eslint/parser": "^4.28.4",
+    "eslint": "^7.31.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "fork-ts-checker-webpack-plugin": "^6.5.0",
+    "prettier": "^2.3.2",
+    "serverless-webpack": "^5.6.1",
+    "ts-loader": "^9.2.6",
+    "typescript": "^4.3.5",
+    "webpack": "^5.67.0",
+    "webpack-node-externals": "^3.0.0"
+  },
+  "dependencies": {
+    "aws-lambda": "^1.0.7"
+  }
+}
